@@ -1,0 +1,13 @@
+Version 4
+SymbolType BLOCK
+RECTANGLE Normal 0 -64 80 0
+TEXT 10 -74 Left 0 2p_clock
+PIN 0 -32 LEFT 8
+PINATTR PinName CLK
+PINATTR SpiceOrder 1
+PIN 80 -48 RIGHT 8
+PINATTR PinName F1
+PINATTR SpiceOrder 2
+PIN 80 -16 RIGHT 8
+PINATTR PinName F2
+PINATTR SpiceOrder 3

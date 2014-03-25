@@ -1,0 +1,12 @@
+Version 4
+SymbolType BLOCK
+RECTANGLE Normal 32 64 -64 -64
+PIN -64 -32 LEFT 8
+PINATTR PinName d
+PINATTR SpiceOrder 1
+PIN -64 32 LEFT 8
+PINATTR PinName ena
+PINATTR SpiceOrder 2
+PIN 32 -32 RIGHT 8
+PINATTR PinName q
+PINATTR SpiceOrder 3
