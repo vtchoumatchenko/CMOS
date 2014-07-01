@@ -71,7 +71,7 @@ begin
         apply_and_check('1','0');
         apply_and_check('1','0');
         
-      clock_run <= false;
+        clock_run <= false;
       wait;
    end process;
 end;
