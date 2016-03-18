@@ -85,8 +85,8 @@ Ey||D5G2;|contact@11||U
 X
 
 # Cell NAND2;1{sch}
-CNAND2;1{sch}||schematic|1332838749287|1332840038475|
-INAND2;1{ic}|NAND2@0||3.5|13.5|||D5G4;
+CNAND2;1{sch}||schematic|1332838749287|1433573374683|
+INAND2;1{ic}|NAND2@0||-1.5|12.5|||D5G4;
 Ngeneric:Facet-Center|art@0||0|0||||AV
 NOff-Page|conn@0||-30.5|-8.5||||
 NOff-Page|conn@1||-30.5|-14||||
@@ -130,33 +130,35 @@ Ey||D5G2;|conn@2|y|U
 X
 
 # Cell NAND2_sim;1{lay}
-CNAND2_sim;1{lay}||mocmos|1332851286171|1431584793705||DRC_last_good_drc_area_date()G1396873913149|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1396873913149
-INAND2;1{lay}|NAND2@1||16|-2.5|||D5G4;
+CNAND2_sim;1{lay}||mocmos|1332851286171|1433448151681||DRC_last_good_drc_area_date()G1396873913149|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1396873913149
+INAND2;1{lay}|NAND2@1||7|1.5||A|D5G4;Y8;
 Ngeneric:Facet-Center|art@0||0|0||||AV
-NMetal-1-Pin|pin@0||-44|32||||
-NMetal-1-Pin|pin@1||-44|-2||||
-NMetal-1-Pin|pin@2||49.5|-1||||
-NMetal-1-Pin|pin@3||-43.5|-35||||
-NMetal-2-Pin|pin@5||2|52||||
-Ngeneric:Invisible-Pin|pin@6||50.5|-57.5|||||SIM_spice_card(A14;D5)S[VDD VDD 0 3.3,VA A 0 PULSE(3.3 0 15n 0.5n 0.5n 5n),VB B 0 PULSE(3.3 0 2n 0.5n 0.5n 5n),.TRAN 25n,.INCLUDE cmos.lib]
-AMetal-1|a|A24;D5X16.5;Y6.5;|1|S1800|NAND2@1|b|18|-1|pin@2||49.5|-1
-AMetal-1|b|A24;D5X-19.5;Y6.5;|1|S0|NAND2@1|a|-6|-2|pin@1||-44|-2
-AMetal-1|gnd|A24;D5X-20.5;Y7;|3|S0|NAND2@1|gnd|4|-35|pin@3||-43.5|-35
-AMetal-1|vdd|A24;D5X-19;Y6.5;|3|S0|NAND2@1|vdd|1|32|pin@0||-44|32
-AMetal-2|y|A24;D5X6;Y26;|1|S2700|NAND2@1|y|2|-1|pin@5||2|52
+NMetal-1-Pin|pin@0||-31|36||||
+NMetal-1-Pin|pin@1||-33|2||||
+NMetal-1-Pin|pin@2||36.5|3||||
+NMetal-1-Pin|pin@3||-32.5|-31||||
+NMetal-2-Pin|pin@8||-7|-20||||
+NMetal-2-Pin|pin@9||36|-20||||
+Ngeneric:Invisible-Pin|pin@10||-28.5|-43.5|||||SIM_spice_card(D6G1;)S[VDD VDD 0 3,VA a 0 PULSE(0 3 10n 0.5n 0.5n 10n 20n),VB b 0 PULSE(0 3 20n 0.5n 0.5n 20n 40n),CL y 0 0.5p,.TRAN 50n,.INCLUDE cmos.lib]
+AMetal-1|a|A24;D5X18.5;Y-0.5;|1|S1800|NAND2@1|b|9|3|pin@2||36.5|3
+AMetal-1|b|A24;D5X-12.5;Y0.5;|1|S0|NAND2@1|a|-15|2|pin@1||-33|2
+AMetal-1|gnd|A24;D5X-23.5;|3|S0|NAND2@1|gnd|4|-31|pin@3||-32.5|-31
+AMetal-2|net@1||1|S900|NAND2@1|y|-7|3|pin@8||-7|-20
+AMetal-1|vdd|A24;D5X-22;Y-0.5;|3|S0|NAND2@1|vdd|1|36|pin@0||-31|36
+AMetal-2|y|D5G3;X26;Y-1;|1|S1800|pin@8||-7|-20|pin@9||36|-20
 X
 
 # Cell NAND2_sim;1{sch}
-CNAND2_sim;1{sch}||schematic|1332840399115|1431584857207|
+CNAND2_sim;1{sch}||schematic|1332840399115|1433572563774|
 INAND2;1{ic}|NAND2@0||0|7|||D5G4;
 Ngeneric:Facet-Center|art@0||0|0||||AV
-Ngeneric:Invisible-Pin|pin@1||0.5|-2.5|||||SIM_spice_card(D5G1;)S[VDD VDD 0 3.3,VA A 0 PULSE(3.3 0 15n 0.5n 0.5n 5n),VB B 0 PULSE(3.3 0 2n 0.5n 0.5n 5n),.TRAN 25n,.INCLUDE cmos.lib]
+Ngeneric:Invisible-Pin|pin@1||-8.5|-1.5|||||SIM_spice_card(D6G1;)S[VDD VDD 0 3,VA a 0 PULSE(0 3 10n 0.5n 0.5n 10n 20n),VB b 0 PULSE(0 3 20n 0.5n 0.5n 20n 40n),CL y 0 0.5p,.TRAN 50n,.INCLUDE cmos.lib]
 NWire_Pin|pin@3||-11|5.5||||
 NWire_Pin|pin@4||11|7||||
-NWire_Pin|pin@5||-11|9||||
-Awire|a|D5G1;||0|NAND2@0|a|-5|9|pin@5||-11|9
-Awire|b|D5G1;||0|NAND2@0|b|-5|5.5|pin@3||-11|5.5
-Awire|y|D5G1;||1800|NAND2@0|y|5|7|pin@4||11|7
+NWire_Pin|pin@6||-11|9||||
+Awire|a|D5G1;Y1;||0|NAND2@0|a|-5|9|pin@6||-11|9
+Awire|b|D5G1;Y1;||0|NAND2@0|b|-5|5.5|pin@3||-11|5.5
+Awire|y|D5G1;Y1;||1800|NAND2@0|y|5|7|pin@4||11|7
 X
 
 # Cell inverter;1{ic}
