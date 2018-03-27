@@ -18,7 +18,7 @@
 +KETA    = 7.610957E-4    A1      = 0              A2      = 1
 +RDSW    = 1.765783E3     PRWG    = -0.0516407     PRWB    = -0.0720106
 +WR      = 1              WINT    = 2.308108E-7    LINT    = 1.070133E-7
-+XL      = -1E-7          XW      = 0              DWG     = -1.061875E-8
++DWG     = -1.061875E-8
 +DWB     = 9.968046E-9    VOFF    = -0.087238      NFACTOR = 0.7430201
 +CIT     = 0              CDSC    = 2.4E-4         CDSCD   = 0
 +CDSCB   = 0              ETA0    = 0.0510981      ETAB    = -4.139616E-3
@@ -54,7 +54,7 @@
 +KETA    = 1.497077E-3    A1      = 0              A2      = 1
 +RDSW    = 3.5E3          PRWG    = -9.627759E-3   PRWB    = 4.432529E-3
 +WR      = 1              WINT    = 2.217134E-7    LINT    = 5.367112E-8
-+XL      = -1E-7          XW      = 0              DWG     = -1.784655E-8
++DWG     = -1.061875E-8
 +DWB     = 7.779588E-9    VOFF    = -0.1063913     NFACTOR = 0.2851193
 +CIT     = 0              CDSC    = 2.4E-4         CDSCD   = 0
 +CDSCB   = 0              ETA0    = 0.0282756      ETAB    = 4.462399E-3
@@ -90,7 +90,7 @@
 +KETA    = 7.610957E-4    A1      = 0              A2      = 1
 +RDSW    = 1.765783E3     PRWG    = -0.0516407     PRWB    = -0.0720106
 +WR      = 1              WINT    = 2.308108E-7    LINT    = 1.070133E-7
-+XL      = -1E-7          XW      = 0              DWG     = -1.061875E-8
++DWG     = -1.061875E-8
 +DWB     = 9.968046E-9    VOFF    = -0.087238      NFACTOR = 0.7430201
 +CIT     = 0              CDSC    = 2.4E-4         CDSCD   = 0
 +CDSCB   = 0              ETA0    = 0.0510981      ETAB    = -4.139616E-3
@@ -126,7 +126,7 @@
 +KETA    = 1.497077E-3    A1      = 0              A2      = 1
 +RDSW    = 3.5E3          PRWG    = -9.627759E-3   PRWB    = 4.432529E-3
 +WR      = 1              WINT    = 2.217134E-7    LINT    = 5.367112E-8
-+XL      = -1E-7          XW      = 0              DWG     = -1.784655E-8
++DWG     = -1.061875E-8
 +DWB     = 7.779588E-9    VOFF    = -0.1063913     NFACTOR = 0.2851193
 +CIT     = 0              CDSC    = 2.4E-4         CDSCD   = 0
 +CDSCB   = 0              ETA0    = 0.0282756      ETAB    = 4.462399E-3

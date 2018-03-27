@@ -8,10 +8,9 @@ LINE Normal 8 16 8 80
 LINE Normal 48 16 16 16
 LINE Normal 48 0 48 16
 LINE Normal 16 48 48 48
-WINDOW 0 21 30 Left 0
+WINDOW 0 21 30 Left 2
 SYMATTR Prefix M
 SYMATTR Description N-Channel MOSFET transistor
-SYMATTR SpiceModel NMOS
 PIN 48 0 NONE 0
 PINATTR PinName D
 PINATTR SpiceOrder 1
